@@ -1,5 +1,4 @@
- [toc]
-# js正式课day12
+
 ## 计算样式：
 ### getComputedStyle(element).属性
 - 元素的style下的属性，默认为空字符串。
