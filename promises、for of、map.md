@@ -1,26 +1,22 @@
 # for of进行循环
 * 在ES6中添加了别的数据结构(Set,Map)，他们都需要循环，所以专门通过for of来遍历这些数据结构（循环的统一标准）
-
 ```
     let arr = [1,2,3,4];
         
     for(let val of arr){
         console.log(val); //1,2,3,4
     }
-
 ```
 
 * 如果使用for of循环的时候要获取数据的键值，那么可以借助数组的keys() 获取键 ,values() 获取值,entries() 获取键值对
 
 ```
-
     这三个方法的返回值都是一个Iterator对象，可以通过next()去调用继续执行
 
     let arr = [1,2,3,4];
     for(let [key,val] of arr.entries()){
         console.log(key,val);  //key为下标，val为值
     }
-
 ```
 
 ```
