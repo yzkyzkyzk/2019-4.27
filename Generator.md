@@ -1,6 +1,7 @@
 #Generator 
 
-* 特征一是，function关键字与函数名之间有一个星号；
+特征:
+*一是，function关键字与函数名之间有一个星号；
 
 > function* fn(){}
 
