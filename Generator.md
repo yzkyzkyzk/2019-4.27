@@ -1,7 +1,6 @@
 #Generator 
-
 特征:
-*一是，function关键字与函数名之间有一个星号；
+* 一是，function关键字与函数名之间有一个星号；
 
 > function* fn(){}
 
@@ -31,7 +30,7 @@ function* fn(){
 ```
 > yield表达式本身没有返回值，或者说总是返回undefined。next方法可以带一个参数，该参数就会被当作上一个yield表达式的返回值。
 
-#### yield做了2件事
+## yield做了2件事
         
 > 1.给value设置值  {value:0,done:false}
 
@@ -65,8 +64,6 @@ for (let n of numbers()) {
 // 2
 
 ```
-
-
 * 第一步，协程A开始执行。
 * 第二步，协程A执行到一半，进入暂停，执行权转移到协程B。
 * 第三步，（一段时间后）协程B交还执行权。
